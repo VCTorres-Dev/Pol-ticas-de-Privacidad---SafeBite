@@ -1,92 +1,64 @@
-# Política de Privacidad - SafeBite
+# Política de Privacidad de SafeBite
 
-**Última actualización:** 22 de octubre de 2025
+**Última actualización:** [20/01/2026]
 
-## 1. Introducción
+En **SafeBite** ("nosotros", "nuestro", "la App"), valoramos y respetamos su privacidad. Esta Política de Privacidad describe cómo recopilamos, utilizamos y protegemos la información cuando usted utiliza nuestra aplicación móvil de escaneo y análisis de ingredientes.
 
-SafeBite ("la App") respeta tu privacidad y se compromete a proteger tus datos personales. Esta Política de Privacidad explica cómo recopilamos, usamos, compartimos y protegemos la información que proporcionas o que recopilamos automáticamente cuando usas la App.
+Al utilizar SafeBite, usted acepta las prácticas descritas en esta política.
 
-## 2. Información que Recopilamos
+## 1. Información que Recopilamos
 
-### 2.1 Información que nos proporcionas directamente:
-- **Perfil dietético:** Restricciones alimentarias y preferencias seleccionadas por ti
-- **Historial de escaneos:** Productos escaneados y análisis realizados
-- **Datos de contacto (opcional):** Si eliges proporcionarlos para soporte técnico
+SafeBite ha sido diseñada con un enfoque de **"Privacidad Primero" (Privacy-First)**. La mayor parte de la información se procesa y almacena localmente en su dispositivo.
 
-### 2.2 Información recopilada automáticamente:
-- **Permisos de cámara:** Solo se utiliza para capturar imágenes de etiquetas de productos cuando tú inicias activamente el escaneo
-- **Permisos de almacenamiento:** Para guardar localmente tu historial de escaneos en la base de datos SQLite integrada
-- **Logs de depuración:** Errores y excepciones (para mejorar la App)
+### a. Información Personal
+No requerimos la creación de una cuenta ni el registro de usuario para utilizar la App. Los perfiles dietéticos (alergias, restricciones, preferencias) se almacenan **únicamente en el almacenamiento local** de su dispositivo y no se transmiten a nuestros servidores.
 
-## 3. Cómo Usamos tu Información
+### b. Imágenes y Datos de Cámara
+La App solicita permiso para acceder a la **Cámara** y a la **Galería de Fotos**.
+*   **Finalidad:** Estas imágenes se utilizan exclusivamente para extraer texto de las etiquetas de alimentos (OCR) y analizar ingredientes.
+*   **Procesamiento:**
+    *   **Procesamiento Local:** Por defecto, el reconocimiento de texto (OCR) se realiza localmente en su dispositivo utilizando Google ML Kit.
+    *   **Procesamiento en la Nube (Opcional):** Si usted habilita funciones de Inteligencia Artificial ("Análisis IA", "Gemini") o si el texto es ilegible localmente, la imagen o el texto extraído pueden enviarse a servicios de terceros (Google Gemini API) para su análisis.
 
-SafeBite utiliza tu información **exclusivamente** para:
-- ✅ Procesar y analizar ingredientes de productos mediante OCR
-- ✅ Mantener tu perfil dietético personalizado
-- ✅ Almacenar tu historial de escaneos localmente
-- ✅ Mejorar la precisión del sistema de reconocimiento
-- ✅ Diagnosticar y resolver problemas técnicos
+### c. Historial de Escaneos
+El historial de productos escaneados y los resultados de seguridad alimentaria se guardan en una base de datos local (SQLite) dentro de su dispositivo. Usted puede borrar este historial en cualquier momento desde la configuración de la App.
 
-**NO compartimos, vendemos, ni transmitimos tu información a terceros.**
+## 2. Uso de la Información
 
-## 4. Almacenamiento de Datos
+Utilizamos la información recopilada para:
+*   Procesar y analizar ingredientes para identificar incompatibilidades con su perfil dietético.
+*   Mejorar la precisión del reconocimiento de texto.
+*   Proporcionar funcionalidades de la aplicación, como el historial y la configuración personalizada.
 
-- **Almacenamiento local:** Todos tus datos (perfil, historial, preferencias) se almacenan **exclusivamente en tu dispositivo** usando SQLite
-- **Sin sincronización remota:** La App no envía datos a servidores externos
-- **Sin conexión requerida:** SafeBite funciona completamente sin conexión a internet después de la descarga inicial
+## 3. Servicios de Terceros e Inteligencia Artificial
 
-## 5. Permiso de Cámara
+SafeBite utiliza servicios de terceros para funcionalidades específicas. Estos proveedores tienen sus propias políticas de privacidad.
 
-SafeBite solicita acceso a la cámara de tu dispositivo **únicamente** para:
-- Capturar imágenes de etiquetas de productos cuando tú inicias manualmente un escaneo
-- Procesar esas imágenes localmente para extraer texto mediante Google ML Kit
+*   **Google ML Kit (On-Device):** Utilizado para el reconocimiento de texto (OCR). El procesamiento ocurre en el dispositivo.
+    *   [Política de Privacidad de Google](https://policies.google.com/privacy)
+*   **Google Gemini API (Cloud):** Utilizado para validación avanzada y análisis de ingredientes complejos cuando el usuario lo solicita o habilita la función automática.
+    *   Al usar esta función, los datos de texto o imagen necesarios para el análisis se envían a los servidores de Google para su procesamiento.
+    *   SafeBite no almacena estos datos en servidores propios; actúa como puente entre usted y la API de inteligencia artificial.
 
-**Garantías:**
-- ❌ NO accedemos a la cámara sin tu consentimiento explícito
-- ❌ NO grabamos video
-- ❌ NO compartimos fotos con terceros
-- ❌ NO almacenamos imágenes en servidores
+## 4. Retención de Datos
 
-## 6. Seguridad
+*   **Datos en el Dispositivo:** Toda la información de perfil, configuraciones e historial permanece en su dispositivo hasta que usted decida eliminarla o desinstalar la aplicación.
+*   **Transmisión:** No mantenemos servidores centrales que almacenen sus escaneos personales.
 
-Implementamos medidas de seguridad estándar de la industria:
-- Almacenamiento encriptado de datos locales
-- Firma de la App con certificado de release
-- Cumplimiento con Google Play Security Requirements
-- Auditorías regulares de código
+## 5. Seguridad
 
-## 7. Derechos del Usuario
+Implementamos medidas de seguridad razonables para proteger su información. Dado que los datos residen principalmente en su dispositivo, la seguridad de su información también depende de la seguridad de su propio teléfono (bloqueo de pantalla, encriptación del dispositivo, etc.).
 
-Tienes derecho a:
-- ✅ Acceder a tu información personal en cualquier momento
-- ✅ Modificar o eliminar tu perfil y historial
-- ✅ Desinstalar la App y eliminar todos los datos asociados
-- ✅ Solicitar información sobre qué datos recopilamos
+## 6. Privacidad de Menores
 
-## 8. Cambios en esta Política
+SafeBite no está dirigida a menores de 13 años (o la edad mínima requerida en su jurisdicción). No recopilamos intencionadamente información personal de menores. Si un padre o tutor tiene conocimiento de que su hijo nos ha proporcionado información sin consentimiento, debe contactarnos.
 
-Nos reservamos el derecho de actualizar esta Política de Privacidad. Te notificaremos de cambios significativos a través de:
-- Notificación en la App
-- Actualización en Google Play Store
+## 7. Cambios en esta Política
 
-## 9. Contacto
+Podemos actualizar nuestra Política de Privacidad ocasionalmente. Le notificaremos sobre cualquier cambio publicando la nueva política en esta página y actualizando la "Fecha de actualización" en la parte superior.
 
-Si tienes preguntas sobre esta Política de Privacidad o sobre cómo SafeBite maneja tu información, contacta a:
+## 8. Contacto
 
-**Email:** [Jvcantorres@gmail.com]  
-**Asunto:** Consulta sobre Privacidad
+Si tiene preguntas o sugerencias sobre nuestra Política de Privacidad, no dude en contactarnos:
 
----
-
-## Cumplimiento Legal
-
-SafeBite cumple con:
-- ✅ GDPR (General Data Protection Regulation) — UE
-- ✅ CCPA (California Consumer Privacy Act) — USA
-- ✅ Google Play Data Safety requirements
-- ✅ Regulaciones chilenas de protección de datos
-
----
-
-**Última actualización:** 22 de octubre de 2025  
-**Versión:** 1.0
+*   **Correo Electrónico:** [Jvcantorres@gmail.com]
