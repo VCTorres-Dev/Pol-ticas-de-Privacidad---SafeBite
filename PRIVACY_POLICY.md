@@ -2,7 +2,7 @@
 
 **Última actualización:** [20/01/2026]
 
-En **SafeBite** ("nosotros", "nuestro", "la App"), valoramos y respetamos su privacidad. Esta Política de Privacidad describe cómo recopilamos, utilizamos y protegemos la información cuando usted utiliza nuestra aplicación móvil de escaneo y análisis de ingredientes.
+En **SafeBite** valoramos y respetamos su privacidad. Esta Política de Privacidad describe cómo recopilamos, utilizamos y protegemos la información cuando usted utiliza nuestra aplicación móvil de escaneo y análisis de ingredientes.
 
 Al utilizar SafeBite, usted acepta las prácticas descritas en esta política.
 
