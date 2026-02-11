@@ -159,5 +159,6 @@ If you have any questions about these Terms of Service, please contact us:
 
 ---
 
-*SafeBite — Developed by Antigravity*  
+*SafeBite — SafeBite Team*  
 *Santiago, Chile*
+
